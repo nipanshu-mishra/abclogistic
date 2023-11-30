@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport Company</title>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="index.html"><img src="images/logo.PNG"></a></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="network.html">Network</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="tracking.html">Tracking</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <a href="tracking.html" class="cta-button">Online Tracking</a>
+    </section>
+
+    <div class="service-line">
+        <h2>Our Services</h2>
+    </div>
+    <section class="services" id="services">
+
+        <div class="service">
+            <u>
+                <h3>Part-Load (LTL)</h3>
+            </u>
+            <p>
+                With extensive reach, deep penetration of branch network and strategically located transshipment hubs,
+                MBT leverages its hub-spoke model to provide seamless Part load (LTL) services across India.</p>
+        </div>
+        <div class="service">
+            <u>
+                <h3>Full Truck Load (FTL)</h3>
+            </u>
+            <p>One of the most comprehensive logistics service providers in the country, MATA offers dedicated vehicle
+                services from LCVs, MCVs, and all types and sizes of mechanical trailers from anywhere to anywhere
+                across India.</p>
+        </div>
+        <div class="service">
+            <u>
+                <h3>Door to Door Delivery</h3>
+            </u>
+            <p>The Company also provides the option of door collection and door delivery to the customers at a cost.</p>
+        </div>
+        <div class="service">
+            <u>
+                <h3>Cash on Delivery</h3>
+            </u>
+            <p>Optimize your supply chain with our expert guidance.</p>
+        </div>
+    </section>
+
+    <div class="form">
+        <div class="form-container">
+            <h1>Enquiry Form</h1>
+            <form action="enquiry.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="mobile">Mobile:</label>
+                <input type="tel" id="mobile" name="mobile" required pattern="[0-9]{10}"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="origin">Origin:</label>
+                <input type="text" id="origin" name="origin" required><br><br>
+
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required><br><br>
+
+                <label for="material">Material Details:</label>
+                <textarea id="material" name="material" rows="4" required></textarea><br><br>
+
+
+                <input type="submit" value="Submit" style="border: solid; border-color: rgb(21, 153, 153) ;">
+            </form>
+        </div>
+    </div>
+
+
+    <section class="contact">
+        <u>
+            <h2>Contact Us</h2>
+        </u>
+
+        <p><i class="fa fa-phone" aria-hidden="true"></i> 8888888888</p>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i>abc@logistics.com</p>
+
+        <p><i class="fa fa-map-marker" aria-hidden="true"></i>
+            Karol Bagh,
+            Near Karol Bagh Metro Station,
+            Delhi - 110095
+        </p>
+    </section>
+
+    <section class="quick_links">
+        <u>
+            <h2>Quick Links</h2>
+        </u>
+        <div class="links">
+            <nav>
+
+                <img src="images/fb.png" width="30px" height="30px">
+                <img src="images/instagram.jpg" width="30px" height="30px">
+                <img src="images/whatsapp.jpg" width="30px" height="30px">
+                <img src="images/twitter.jpg" width="30px" height="30px">
+
+            </nav>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 ABC LOGISTICS</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,399 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo img {
+    width: 200px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 200px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 40px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+}
+
+
+.hero {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #333;
+    min-height: 400px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.services {
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+}
+
+.service-line{
+    text-align: center;
+}
+
+.service {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333;
+    flex: 40%;
+    border: solid;
+    border-color: rgb(21, 153, 153);
+}
+
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding: 50px 0;
+    text-align: center;
+    background-color: white;
+    color: rgb(21, 153, 153);
+   border: solid;
+   border-color: rgb(21, 153, 153);
+}
+
+.contact pre{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.quick_links{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(21, 153, 153);
+}
+
+.links{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:rgb(21, 153, 153);
+    
+}
+
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*--------------------tracking------------------*/
+
+.track_page{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(21, 153, 153);
+    min-height: 200px;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+.track_back {
+    background-image: url('images/track.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #333;
+}
+
+
+/*---------services--------------*/
+
+button{
+    background-color: white;
+}
+
+.eservices {
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+}
+
+.eservice-line{
+    text-align: center;
+}
+
+.eservice {
+    margin: 20px;
+    padding: 20px;
+    border: solid;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color:black;
+   background-color: white;
+   flex: 45%;
+   border-color: rgb(21, 153, 153);
+   
+}
+
+/*----------------about-------------------------*/
+
+.vision{
+    text-align: center;
+    margin: 40px;
+    padding: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: solid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-color: rgb(21, 153, 153);
+
+}
+
+/*--------------------network--------------------------*/
+
+.network{
+    text-align: center;
+    margin: 40px;
+    padding: 40px;
+    background-color: white;
+    color: black;
+    border: solid;
+    border-color: rgb(21, 153, 153);
+}
+
+.clients{
+    display: flex;
+}
+
+.client{
+    flex: 18%;
+}
+
+.client img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+/*---------------------form------------------*/
+
+
+.cform {
+    flex: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    border: solid;
+    border-color: rgb(21, 153, 153);
+}
+
+
+.cform-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*--------------------------contact-page------------------*/
+
+.contact-page{
+    display: flex;
+    min-height: 450px;
+
+    border-color: rgb(21, 153, 153);
+}
+
+.ccontact {
+    padding: 50px 0;
+    background-color: white;
+    color: rgb(21, 153, 153);
+   flex: 50%;
+   border: solid;
+   border-color: rgb(21, 153, 153);
+   padding-left: 20px;
+}
+
+
+
+/*----------------------------------media query----------------------*/
+@media only screen and (max-width: 768px) {
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+.nav-links li{
+    margin-bottom: 10px;
+}
+
+    .burger {
+        display: flex;
+    }
+    .logo {
+        font-size: 24px;
+        margin-left: 10px;
+    }
+    .network img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .vision img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .client img{
+        width: 31px;
+        height: 31px;
+        margin: 5px;
+    }
+
+    .services {
+        padding: 50px 0;
+        text-align: center;
+        min-width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .service-line{
+        text-align: center;
+    }
+    
+    .service {
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        color: #333;
+        border: solid;
+        border-color: rgb(21, 153, 153);
+        min-width: 280px;
+    }
+
+    .eservices {
+        padding: 50px 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .eservice img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .contact-page{
+        display: block;
+        min-height: 450px;
+        border: solid;
+        border-color: rgb(21, 153, 153);
+    }
+
+    .cform {
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        margin: 0;
+        background-color: white;
+        border: solid;
+        border-color: rgb(21, 153, 153);
+    }
+
+}

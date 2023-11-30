@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport Company</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo"><a href="index.html"><img src="images/logo.PNG"></a></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="network.html">Network</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="tracking.html">Tracking</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+
+    <div class="contact-page">
+
+
+        <div class="cform">
+            <div class="cform-container">
+                <u>
+                    <h1>Enquiry Form</h1>
+                </u>
+                <form action="enquiry.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="mobile">Mobile:</label>
+                    <input type="tel" id="mobile" name="mobile" required pattern="[0-9]{10}"><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="origin">Origin:</label>
+                    <input type="text" id="origin" name="origin" required><br><br>
+
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" name="destination" required><br><br>
+
+                    <label for="material">Material Details:</label>
+                    <textarea id="material" name="material" rows="4" required></textarea><br><br>
+
+                    <input type="submit" value="Submit" style="border: solid;border-color: rgb(21, 153, 153)">
+                </form>
+            </div>
+        </div>
+
+        <section class="ccontact">
+            <u>
+                <h2>Contact Us</h2>
+            </u>
+            <p><i class="fa fa-phone" aria-hidden="true"></i> 88888888</p>
+            <p><i class="fa fa-envelope" aria-hidden="true"></i>abc@mbtlogistics.com</p>
+
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i>
+                Karol Bagh,
+                Near Karol Bagh Metro Station,
+                Delhi - 110095
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2023 ABC LOGISTICS</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
